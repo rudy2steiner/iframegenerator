@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
+    const url = urlInput.value;
     generateIframe();
   });
 
